@@ -107,18 +107,18 @@ h1 {
 
 button {
     display: inline-block;
-    padding: 1rem 2rem;
-    height: 3.5rem;
-    width: 10rem;
+    height: 4rem;
+    width: 20rem;
     border-radius: 0.3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-top: 1rem;
     border-radius: 1rem;
     color: #eff1f1;
     background-color: #0e66eb;
     box-shadow: 5px 5px 4px -1px #888;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     text-align: center;
+
 }
 
 /* general setup and defaults */
@@ -134,6 +134,10 @@ body {
     margin: 1.5rem auto;
     width:90%;
     min-width:56.25rem;
+}
+
+.attribution {
+    text-align: right;
 }
 
 
@@ -191,9 +195,8 @@ figure {
 }
 
 .article-image {
-    height: 37rem;
-    width: 30rem;
-    /* float: left; */
+    height: 45rem;
+    width: 35rem;
     margin-right: 1rem;
 }
 
@@ -216,9 +219,7 @@ figure {
    width: 36rem;
 }
 
-.date {
-    padding-bottom: 15rem;
-}
+
 
 
 /* links and nav */
@@ -230,7 +231,7 @@ a {
 nav a {
     display: inline-block;
     padding: 1.25rem 2rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-family: lato, Arial, sans-serif;
     color: #0e66eb;
 }
